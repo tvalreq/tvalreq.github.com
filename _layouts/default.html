@@ -21,13 +21,27 @@
         <!-- MathJax -->
         <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
+
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <header></header>
+
         {{ content }}
+
+        <footer class="text-center text-muted">
+            <hr/>
+            Last updated {{ site.time | date: "%B %d, %Y" }}.
+            <br/>
+            Created with <a href="http://git-scm.com/">git</a>,
+            <a href="http://jekyllrb.com">jekyll</a> and <a href="http://getbootstrap.com/">bootstrap</a>.
+            <br/> 
+            Feel free to reuse the <a href="https://github.com/tvalreq/tvalreq.github.com">source code</a>.
+            <br/><br/>
+        </footer>
 
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
