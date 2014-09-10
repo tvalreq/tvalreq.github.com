@@ -1,0 +1,52 @@
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  year: 2010
+  month: October
+  img: 2010_IUCS
+  title: Translation Table Compression under End-Tagged Dense Code
+  authors: Tito Valencia, Lorena O. Cerdeira, Eva L. Iglesias and Francisco J. Rodríguez
+  booktitle: Universal Communication Symposium (IUCS), 2010 4th International
+  pages: 306-311
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fWHdKcC1HbXhjcFk/edit?usp=sharing
+  booktitle-url: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5654670
+  venue: conference
+  abstract: >
+    <p> In recent years, the quality of Phrase-Based Statistical Machine Translation
+    has increased dramatically partially due to the significant increase of available 
+    parallel corpus. If we talk in terms of space, this advantage becomes a disadvantage 
+    because the increased size of the parallel corpus implies an exponential increase in 
+    the size of the translation tables. To solve this problem, there are solutions that 
+    reduce the size of the translation tables limiting the length of sentences that are 
+    incorporated into the tables. This solution reduces the space, but at the expense of 
+    increasing the possibility of worsening the translation of long sentences. In this 
+    paper, we propose the compression of the phrase-based translation tables using 
+    End-Tagged Dense Code to codify the phrases in source and target languages. The use 
+    of this technique allows us to reduce the size of translation tables and therefore 
+    it is possible to add longer sentences.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  year: 2010
+  month: September
+  img: 2010_DCAI
+  title: SithGent, an Ill Agent
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Tito Valencia Requejo
+  booktitle: Distributed Computing and Artificial Intelligence
+  booksubtitle: 7th International Symposium
+  pages: 105-111
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fMFRfYWZJU2RuZkE/edit?usp=sharing
+  booktitle-url: http://link.springer.com/book/10.1007/978-3-642-14883-5
+  venue: conference
+  abstract: >
+    <p> In this paper we introduce our future lines of investigation on the field 
+    of Intelligent Agents, focusing on analysing why agents which were well defined 
+    according to the guidelines of Agent Oriented Software Engineering, do not show 
+    the expected behaviour when they are introduced on a real environment, causing 
+    the system to collapse.When addressing to agents malfunctions we will use a metaphor 
+    in which agents are considered as patients waiting to be diagnosed. Problems agents 
+    show would be equivalent to diseases patients suffer from, and the diagnostic process 
+    in agents will also be compared to the procedure followed by physicians when they 
+    need to heal patients. Therefore we introduce the concepts of SithGent and 
+    SithGent Diagnose, to refer to, sick agents and its diagnostic process.</p>
