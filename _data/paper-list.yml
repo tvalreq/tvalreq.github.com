@@ -12,7 +12,7 @@
   booktitle-url: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5654670
   venue: conference
   abstract: >
-    <p> In recent years, the quality of Phrase-Based Statistical Machine Translation
+    <p>In recent years, the quality of Phrase-Based Statistical Machine Translation
     has increased dramatically partially due to the significant increase of available 
     parallel corpus. If we talk in terms of space, this advantage becomes a disadvantage 
     because the increased size of the parallel corpus implies an exponential increase in 
@@ -40,7 +40,7 @@
   booktitle-url: http://link.springer.com/book/10.1007/978-3-642-14883-5
   venue: conference
   abstract: >
-    <p> In this paper we introduce our future lines of investigation on the field 
+    <p>In this paper we introduce our future lines of investigation on the field 
     of Intelligent Agents, focusing on analysing why agents which were well defined 
     according to the guidelines of Agent Oriented Software Engineering, do not show 
     the expected behaviour when they are introduced on a real environment, causing 
@@ -50,3 +50,50 @@
     in agents will also be compared to the procedure followed by physicians when they 
     need to heal patients. Therefore we introduce the concepts of SithGent and 
     SithGent Diagnose, to refer to, sick agents and its diagnostic process.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  year: 2012
+  month: October
+  img: 2012_MATES
+  title: Multi-Agent Systems Applied to the Field of Ornamental Plants
+  authors: Francisco J. Rodríguez-Martínez, Tito Valencia-Requejo and Lorena Otero-Cerdeira
+  booktitle: Multiagent System Technologies
+  booksubtitle: 10th German Conference, MATES 2012, Trier, Germany, October 10-12, 2012. Proceedings
+  pages: 139-153
+  doc-url: 
+  booktitle-url: http://www.springer.com/computer/ai/book/978-3-642-33689-8
+  venue: conference
+  abstract: >
+    <p>The market of ornamental plants is very important and strategical in Galicia and 
+    yet is one of the sectors where fewer technological change has been incorporated in 
+    recent years. This paper describes a real solution applied to an enterprise of ornamental 
+    plant selling and distribution. The solution that we propose uses intelligent agent 
+    technologies and ontologies to meet the special needs of an enterprise of this kind. We 
+    present the architecture defined with the agents involved in both parties, the plant 
+    wholesaler and the plant producers. A description of the ontologies that these agents 
+    use to interact is also provided, as well an example of systems behavior. In the final 
+    section some relevant issues detected and conclusions will be presented.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  year: 2012
+  month: October
+  img: 2012_DCAI
+  title: Multi-agent Systems and Ontologies Applied to New Industrial Domains - Case Study: Ornamental Plants
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Loxo Lueiro Astray
+  booktitle: International Conference on Knowledge Engineering and Ontology Development (KEOD 2012)
+  pages: 357-364
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fUEVzOHhoQ1ZWUVE/edit?usp=sharing
+  booktitle-url: 
+  venue: conference
+  abstract: >
+    <p>This paper describes a real solution applied to an enterprise of ornamental plant 
+    selling and distribution. The platform that we propose uses intelligent agent technologies 
+    and ontologies to meet the special needs of an enterprise of this kind. We present the 
+    architecture defined with the agents involved in both parties, the plant wholesaler and 
+    the plant producers. A description of the ontologies that these agents use to interact 
+    is also provided. In the final section some relevant issues detected and conclusions 
+    will be presented.</p>
