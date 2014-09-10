@@ -237,7 +237,7 @@ header {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
     header {
         margin-top: 10px;
