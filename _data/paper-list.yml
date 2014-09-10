@@ -50,3 +50,28 @@
     in agents will also be compared to the procedure followed by physicians when they 
     need to heal patients. Therefore we introduce the concepts of SithGent and 
     SithGent Diagnose, to refer to, sick agents and its diagnostic process.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  year: 2012
+  month: October
+  img: 2012_MATES
+  title: Multi-Agent Systems Applied to the Field of Ornamental Plants
+  authors: Francisco J. Rodríguez-Martínez, Tito Valencia-Requejo and Lorena Otero-Cerdeira
+  booktitle: Multiagent System Technologies
+  booksubtitle: 10th German Conference, MATES 2012, Trier, Germany, October 10-12, 2012. Proceedings
+  pages: 139-153
+  doc-url: #
+  booktitle-url: http://www.springer.com/computer/ai/book/978-3-642-33689-8
+  venue: conference
+  abstract: >
+    <p>The market of ornamental plants is very important and strategical in Galicia and 
+    yet is one of the sectors where fewer technological change has been incorporated in 
+    recent years. This paper describes a real solution applied to an enterprise of ornamental 
+    plant selling and distribution. The solution that we propose uses intelligent agent 
+    technologies and ontologies to meet the special needs of an enterprise of this kind. We 
+    present the architecture defined with the agents involved in both parties, the plant 
+    wholesaler and the plant producers. A description of the ontologies that these agents 
+    use to interact is also provided, as well an example of systems behavior. In the final 
+    section some relevant issues detected and conclusions will be presented.</p>
