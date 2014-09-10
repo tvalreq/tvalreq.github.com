@@ -6,7 +6,7 @@ description: Tito Valencia's Homepage
 
 <h4>Papers</h4>
 <ul>
-{% for paper in site.data.paper-list.sort_by(:year, 'desc') %}
+{% for paper in site.data.paper-list | sort_by: 'year' | reverse %}
 	<li>
 		{{ paper.title }}
 	</li>
