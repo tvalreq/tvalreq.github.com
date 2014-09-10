@@ -110,6 +110,10 @@ textarea {
     margin-top: 20px;
 }
 
+header {
+    text-align: left;
+}
+
 
 
 
@@ -237,8 +241,9 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
     header {
         margin-top: 10px;
+        text-align: left;
     }
-    
+
     #cabecera-col-3 {
         text-align: right;
     }
