@@ -110,12 +110,12 @@ textarea {
     margin-top: 20px;
 }
 
-body header {
+header {
     text-align: center;
     margin-top: 5px;
 }
 
-body header img {
+header img {
     margin-left: auto;
     margin-right: auto;
 }

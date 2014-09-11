@@ -5,16 +5,14 @@ description: Tito Valencia's Homepage
 ---
 
 <section id="papers">
-	<header>
-		<h4>Papers</h4>
-	</header>
-<ul>
-{% for paper in site.data.paper-list | sort_by: 'year' %}
-	<li>
-		{{ paper.title }}
-	</li>
-{% endfor %}
-</ul>
+	<h4>Papers</h4>
+	<ul>
+	{% for paper in site.data.paper-list | sort_by: 'year' %}
+		<li>
+			{{ paper.title }}
+		</li>
+	{% endfor %}
+	</ul>
 </section><!--/papers-->
 <br/>
 <h4>Title</h4>
