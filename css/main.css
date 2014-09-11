@@ -250,6 +250,11 @@ header img {
         text-align: left;
     }
 
+    #cabecera-col-1 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
     #cabecera-col-3 {
         text-align: right;
     }
