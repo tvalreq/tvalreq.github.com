@@ -6,13 +6,11 @@ description: Tito Valencia's Homepage
 
 <section id="papers">
 	<h4>Papers</h4>
-	<ul>
 	{% for paper in site.data.paper-list | sort_by: 'year' %}
-		<li>
-			{{ paper.title }}
-		</li>
+		{% if paper.selected %}
+			{% include paper.html paper=paper %}
+		{% endif %}
 	{% endfor %}
-	</ul>
 </section><!--/papers-->
 <br/>
 <h4>Title</h4>
