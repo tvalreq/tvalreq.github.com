@@ -120,6 +120,10 @@ header img {
     margin-right: auto;
 }
 
+header #iconos a:hover {
+    text-decoration: none;
+}
+
 
 
 
