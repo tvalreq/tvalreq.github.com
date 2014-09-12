@@ -3,7 +3,25 @@
         <img class="media-object" src="img/paper/{{ include.paper.img }}" width="45px" alt="">
     </a>
     <div class="media-body">
-        <strong class="media-heading">{{ include.paper.title }}</strong><br/>
-        bla bla bla
+        <strong class="media-heading">
+        	{{ include.paper.title }}
+        	{% if include.paper.subtitle %}. {{ include.paper.subtitle }}{% endif %}
+        </strong><br/>
+        {% if include.paper.authors %}{{ include.paper.authors }}.{% endif %}
+        
+        {% case include.paper.paper-type %}
+			{% when "inproceedings" %}
+				In 
+        		{% if include.paper.booktitle-url %}
+					<a href="{{ include.paper.booktitle-url}}">
+            			<span class="glyphicon glyphicon-globe"></span>
+					</a>
+        		{% endif %}
+				<i>{{ include.paper.booktitle }}</i>
+        		{% if include.paper.pages %}: pages {{ include.paper.pages }}{% endif %}
+        		{% if include.paper.year %}, {{ include.paper.year }}.{% endif %}
+			{% when "article" %}
+
+		{% endcase %}
     </div>
 </div>
