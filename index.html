@@ -4,16 +4,18 @@ title: Tito Valencia
 description: Tito Valencia's Homepage
 ---
 
-<section id="papers">
-	<h4>Papers</h4>
-	{% for paper in site.data.paper-list | sort_by: 'year' %}
-		{% if paper.selected %}
-			{% include paper.html paper=paper %}
-		{% endif %}
-	{% endfor %}
-</section><!--/papers-->
-<br/>
-<h4>Title</h4>
-<p>I'm working on this. Please, be patient!</p>
-
-
+<div class="row">
+    <div class="col-sm-12">
+		<section id="papers">
+			<h4>Papers</h4>
+			{% for paper in site.data.paper-list | sort_by: 'year' %}
+				{% if paper.selected %}
+					{% include paper.html paper=paper %}
+				{% endif %}
+			{% endfor %}
+		</section><!--/papers-->
+		<br/>
+		<h4>Title</h4>
+		<p>I'm working on this. Please, be patient!</p>
+    </div>
+</div>
