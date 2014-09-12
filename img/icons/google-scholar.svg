@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="google-plus.svg"><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs7" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1504"
+   inkscape:window-height="892"
+   id="namedview5"
+   showgrid="false"
+   inkscape:zoom="1.3037281"
+   inkscape:cx="164.61361"
+   inkscape:cy="250.63787"
+   inkscape:window-x="32"
+   inkscape:window-y="164"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2" />
+
+
+
+<g
+   id="google-plus-icon"
+   transform="matrix(0.55767649,0,0,0.56512888,-622.18892,205.36091)">
+
+	<path
+   d="m 462,141.347 h -54.621 v 54.622 h -27.311 v -54.622 h -54.622 v -27.311 h 54.622 v -54.62 h 27.311 v 54.621 H 462 v 27.31 z"
+   id="path3021" /><path
+   d="m 266.631,371.463 c 0,-34.466 -31.441,-67.317 -84.192,-67.317 -47.542,-0.523 -87.832,30.042 -87.832,65.471 0,36.154 34.335,66.25 81.879,66.25 60.781,-0.001 90.145,-28.25 90.145,-64.404 z"
+   id="path2989" />
+
+</g><g
+   id="g3068"
+   transform="translate(27.194805,0)"><path
+     id="path3066"
+     d="m 254.949,207.894 c -3.083,-23.466 -18.371,-42.719 -36.234,-43.256 -17.869,-0.532 -29.854,17.427 -26.767,40.899 3.085,23.467 20.067,39.859 37.939,40.398 17.863,0.532 28.144,-14.572 25.062,-38.041 z"
+     inkscape:connector-curvature="0" /><path
+     id="google-plus-circle-icon"
+     d="m 273.369,331.659 c 0,20.247 -16.443,36.065 -50.481,36.065 -26.625,0 -45.852,-16.854 -45.852,-37.1 0,-19.84 22.562,-36.957 49.186,-36.664 29.54,0.001 47.147,18.398 47.147,37.699 z m 22.934,-2.354 c 0,-18.691 -6.979,-30.903 -28.096,-46.725 -21.417,-15.619 -26.65,-24.443 -6.208,-40.248 11.519,-8.906 19.591,-20.778 19.591,-35.436 0,-15.969 -6.53,-30.457 -18.809,-37.492 h 17.404 l 14.816,-15.551 c 0,0 -55.854,0 -66.303,0 -41.39,0 -61.685,24.809 -61.685,52.098 0,27.889 19.132,49.854 56.492,49.854 -5.792,11.693 -3.466,22.494 6.011,30.217 -63.807,0 -77.461,27.998 -77.461,49.566 0,27.945 32.123,44.559 70.643,44.559 52.669,-10e-4 73.605,-27.913 73.605,-50.842 z M 435.22219,257 c 0,113.771 -92.22899,206 -206,206 -113.771,0 -205.999995,-92.229 -205.999995,-206 0,-113.771 92.228995,-206 205.999995,-206 113.77101,0 206,92.229 206,206 z" /><path
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     d="m 212.34375,132.6875 -54.53125,69.40625 39.21875,0 c -5e-5,-0.0283 0,-0.0656 0,-0.0937 0,-24.47906 25.53159,-40.61375 65.01125,-40.61375 47.84603,-3.91897 30.63082,-11.59766 -21.94796,-11.42297 -1.31693,20.19005 62.40378,27.28455 65.62421,45.47422 l 49.3125,-62.75 z"
+     transform="translate(-27.194805,0)"
+     id="rect2999"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccsccccc" /><rect
+     ry="9.6548176"
+     y="158.71188"
+     x="310.4068"
+     height="95.06282"
+     width="13.01695"
+     id="rect3036"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" /><rect
+     ry="0"
+     y="136.33899"
+     x="313.66104"
+     height="39.050846"
+     width="6.5084748"
+     id="rect3038"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" /></g></svg>
