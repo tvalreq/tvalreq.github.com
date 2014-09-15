@@ -270,7 +270,7 @@ header img {
     }
 
     #news {
-        display: block !important;
+        display: block;
         visibility: visible;
     }
 }
