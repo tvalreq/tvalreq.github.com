@@ -4,29 +4,18 @@ title: Tito Valencia
 description: Tito Valencia's Homepage
 ---
 
+<!--INTRODUCTION-->
 <div class="row">
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="introduction">
 			Nowadays, the world is getting closer to globalization. But, people talk in different languages which is one of the biggest problems to achieve this goal. My research focuses on how to solve it efficiently extending and applying machine learning, linguistics, compression techniques, ontologies, and algorithms.
-		</section>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<section id="news" class="oculto">
-			<h4>News</h4>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-			<br/>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-			<br/>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-			<br/>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 		</section>
 	</div>
 </div>
 
 <!--PAPERS-->
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="papers">
 			<h4>Papers</h4>
 			{% for paper in site.data.paper-list | sort_by: 'year' %}
@@ -35,9 +24,17 @@ description: Tito Valencia's Homepage
 				{% endif %}
 			{% endfor %}
 		</section><!--/papers-->
-		<br/>
-		<h4>Title</h4>
-		<p>I'm working on this. Please, be patient!</p>
     </div>
 </div>
 
+<!--OTHER-->
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<section id="other">
+			<h4>Title</h4>
+			<p>I'm working on this. Please, be patient!</p>
+		</section><!--/other-->
+    </div>
+</div>
+
+		
