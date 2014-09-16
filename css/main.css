@@ -130,10 +130,6 @@ header img {
     text-decoration: none;
 }
 
-#news {
-    display: none;
-}
-
 
 
 
@@ -271,10 +267,6 @@ header img {
 
     #cabecera-col-3 {
         text-align: right;
-    }
-
-    #news {
-        display: block;
     }
 }
 
