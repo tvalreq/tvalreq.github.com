@@ -1,6 +1,7 @@
 - layout: paper
   selected: y
   paper-type: inproceedings
+  label: 2010_IUCS
   year: 2010
   month: 10
   img: 2010_IUCS.svg
@@ -28,6 +29,7 @@
 - layout: paper
   selected: y
   paper-type: inproceedings
+  label: 2010_DCAI
   year: 2010
   month: 09
   img: 2010_DCAI.svg
@@ -53,6 +55,7 @@
 - layout: paper
   selected: y
   paper-type: inproceedings
+  label: 2012_MATES
   year: 2012
   month: 10
   img: 2012_MATES.svg
@@ -77,6 +80,7 @@
 - layout: paper
   selected: y
   paper-type: inproceedings
+  label: 2012_KEOD
   year: 2012
   month: 10
   img: 2012_DCAI.svg
