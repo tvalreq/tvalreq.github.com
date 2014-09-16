@@ -18,7 +18,7 @@ description: Tito Valencia's Homepage
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="news">
 			<h4>News</h4>
-			{% for news in site.data.news-list | sort_by: 'date' %}
+			{% for news in site.data.news-list reversed | sort_by: 'date' %}
 				<article>{{ news.date | date_to_string }} - {{ news.content }}</article>
 			{% endfor %}
 		</section><!--/news-->
