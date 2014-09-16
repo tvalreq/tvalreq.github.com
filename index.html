@@ -30,7 +30,7 @@ description: Tito Valencia's Homepage
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="papers">
 			<h4>Papers</h4>
-			{% for paper in site.data.paper-list | sort_by: 'year' %}
+			{% for paper in site.data.paper-list reversed | sort_by: 'year', 'month' %}
 				{% if paper.selected %}
 					{% include paper.html paper=paper %}
 				{% endif %}
