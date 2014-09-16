@@ -19,7 +19,9 @@ description: Tito Valencia's Homepage
 		<section id="news">
 			<h4>News</h4>
 			{% for news in site.data.news-list reversed | sort_by: 'date' %}
-				<article><em>{{ news.date | date:'%D' }}.</em> {{ news.content }}</article>
+				{% if news.selected %}
+					<article><em>{{ news.date | date:'%D' }}.</em> {{ news.content }}</article>
+				{% endif %}
 			{% endfor %}
 		</section><!--/news-->
 	</div>
