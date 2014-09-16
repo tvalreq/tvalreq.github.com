@@ -1,7 +1,11 @@
-- date: 2014-09-15
+- date: 2014-09-14 15:00:03
   content: >
     Wow!, this is my first news.
 
-- date: 2014-09-16
+- date: 2014-09-15 14:02:08
+  content: >
+    And this is may second news.
+
+- date: 2014-09-15 14:25:00
   content: >
     And this is may second news.
