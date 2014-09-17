@@ -58,12 +58,12 @@
   label: 2012_MATES
   year: 2012
   month: 10
-  img: paper.svg
+  img: 2012_MATES.jpg
   title: Multi-Agent Systems Applied to the Field of Ornamental Plants
   authors: Francisco J. Rodríguez-Martínez, Tito Valencia-Requejo and Lorena Otero-Cerdeira
   booktitle: 10th German Conference in Multiagent System Technologies (MATES)
   pages: 139-153
-  doc-url: #
+  doc-url: http://link.springer.com/chapter/10.1007%2F978-3-642-33690-4_14
   booktitle-url: http://www.springer.com/computer/ai/book/978-3-642-33689-8
   venue: conference
   abstract: >
