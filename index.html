@@ -14,6 +14,7 @@ description: Tito Valencia's Homepage
 </div>
 
 <!--NEWS-->
+{% if site.data.news-list %}
 <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="news">
@@ -26,8 +27,10 @@ description: Tito Valencia's Homepage
 		</section><!--/news-->
 	</div>
 </div>
+{% endif %}
 
 <!--PAPERS-->
+{% if site.data.paper-list %}
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="papers">
@@ -40,15 +43,21 @@ description: Tito Valencia's Homepage
 		</section><!--/papers-->
     </div>
 </div>
+{% endif %}
 
-<!--OTHER-->
+<!--TEACHING-->
+{% if site.data.teaching-list %}
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<section id="other">
-			<h4>Title</h4>
-			<p>I'm working on this. Please, be patient!</p>
-		</section><!--/other-->
+		<section id="teaching">
+			<h4>Teaching</h4>
+			{% for course in site.data.teaching-list reversed | sort_by: 'year' %}
+				{% if course.selected %}
+					{% include course.html course=course %}
+				{% endif %}
+			{% endfor %}
+		</section><!--/teaching-->
     </div>
 </div>
-
+{% endif %}
 		
