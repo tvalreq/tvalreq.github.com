@@ -6,6 +6,17 @@
         <strong class="media-heading">
         	{{ include.course.title }}
         </strong></br>
-        	{% if include.course.type %}<em>{{ include.course.type }}</em>{% endif %}.{% if include.course.organization %} In {{ include.course.organization }}. {% endif %}        
+    	{% if include.course.type %}
+            <em>{{ include.course.type }}</em>
+        {% endif %}.
+        {% if include.course.organization %}
+            In
+            {% if include.paper.booktitle-url %}
+                <a href="{{ include.paper.booktitle-url}}" target="_blank">
+                    <span class="glyphicon glyphicon-globe"></span>
+                </a>
+            {% endif %}
+            {{ include.course.organization }}.
+        {% endif %}      
     </div>
 </div>
