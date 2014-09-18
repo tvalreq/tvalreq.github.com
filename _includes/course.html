@@ -1,6 +1,6 @@
 <div class="media">
     <a class="pull-left thumbnail" target="_{{ include.course.label }}" {% if include.course.doc-url%} href="{{ include.course.doc-url }}" {% endif %}>
-        <img src="img/teaching/{{ include.course.img }}" width="45px" alt="" {% if include.course.img-title %} {{ include.course.img-title }} {% endif %}>
+        <img src="img/teaching/{{ include.course.img }}" width="45px" alt="" {% if include.course.img-title %} title="{{ include.course.img-title }}" {% endif %}>
     </a>
     <div class="media-body">
         <strong class="media-heading">
