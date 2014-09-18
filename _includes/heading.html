@@ -1,6 +1,7 @@
 <div class="media">
+	<img class="pull-left" src="img/news/{{ include.heading.img }}" width="1em" alt="">
 	<div class="media-body">
-	    <img src="img/news/{{ include.heading.img }}" width="25px" alt=""> {{ include.heading.content }}<br/>
+	    {{ include.heading.content }}<br/>
 	    <em>{{ include.heading.date | date:'%D' }}</em>
     </div>
 </div>
