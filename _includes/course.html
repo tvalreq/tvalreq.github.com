@@ -7,7 +7,7 @@
         	{{ include.course.title }}
         </strong></br>
     	{% if include.course.type %}
-            <em>{{ include.course.type }}</em>
+            {{ include.course.type }}
         {% endif %}.
         {% if include.course.organization %}
             In
@@ -16,7 +16,7 @@
                     <span class="glyphicon glyphicon-globe"></span>
                 </a>
             {% endif %}
-            {{ include.course.organization }}.
+            <em>{{ include.course.organization }}</em>.
         {% endif %}      
     </div>
 </div>
