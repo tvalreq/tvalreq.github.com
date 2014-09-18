@@ -17,7 +17,7 @@
             			<span class="glyphicon glyphicon-globe"></span>
 					</a>
         		{% endif %}
-				<i>{{ include.paper.booktitle }}</i>{% if include.paper.pages %}: pages {{ include.paper.pages }}{% endif %}{% if include.paper.year %}, {{ include.paper.year }}.{% endif %}
+				<em>{{ include.paper.booktitle }}</em>{% if include.paper.pages %}: pages {{ include.paper.pages }}{% endif %}{% if include.paper.year %}, {{ include.paper.year }}.{% endif %}
 			{% when "article" %}
 
 		{% endcase %}
