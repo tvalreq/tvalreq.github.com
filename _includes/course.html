@@ -6,9 +6,7 @@
         <strong class="media-heading">
         	{{ include.course.title }}
         </strong></br>
-    	{% if include.course.type %}
-            {{ include.course.type }}
-        {% endif %}.
+    	{% if include.course.type %}{{include.course.type}}{% endif %}.
         {% if include.course.organization %}
             In
             {% if include.course.organization-url %}
