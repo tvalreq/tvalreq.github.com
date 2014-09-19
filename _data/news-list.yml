@@ -1,14 +1,4 @@
-- date: 2014-09-14 15:00:03
+- date: 2014-09-19
   selected: y
   content: >
-    Wow!, this is my first piece of news.
-
-- date: 2014-09-15 14:02:08
-  selected: y
-  content: >
-    And this is my second piece of news.
-
-- date: 2014-09-15 14:25:00
-  selected: y
-  content: >
-    Another one.
+    Our research group - LIA2 - presents its latest publication <strong>Enhancing Alignment Results in Ontology Matching for Smart Cities</strong> in <em>2nd Workshop on Ontologies and Information Systems - WOIS 2014</em> held in Lund (Sweden) on next Monday.
