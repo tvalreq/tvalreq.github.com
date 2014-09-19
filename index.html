@@ -19,10 +19,6 @@ description: Tito Valencia's Homepage
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<section id="news">
 			<h4>News</h4>
-			{% for caca in site.data.news-list reversed | group_by: 'date'%}
-				{% assign year = caca.date | date: '%Y' %}
-				año{{ year }}
-			{% endfor %}
 			{% for news in site.data.news-list reversed | sort_by: 'date' %}
 				{% if news.selected %}
 					<article><em>{{ news.date | date:'%D' }}.</em> {{ news.content }}</article>
