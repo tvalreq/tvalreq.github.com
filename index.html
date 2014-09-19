@@ -29,22 +29,6 @@ description: Tito Valencia's Homepage
 </div>
 {% endif %}
 
-<!--NEWS-->
-{% if site.data.news-list %}
-<div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<section id="news">
-			<h4>News</h4>
-			{% for heading in site.data.news-list reversed | sort_by: 'date' %}
-				{% if heading.selected %}
-					{% include heading.html heading=heading %}
-				{% endif %}
-			{% endfor %}
-		</section><!--/news-->
-	</div>
-</div>
-{% endif %}
-
 <!--PAPERS-->
 {% if site.data.paper-list %}
 <div class="row">
