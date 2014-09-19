@@ -21,8 +21,8 @@ description: Tito Valencia's Homepage
 			<h4>News</h4>
 			{% for caca in site.data.news-list reversed | group_by: 'date'%}
 				{% assign year = caca.date | date: '%Y' %}
-				{{ year }}
-			{% end for %}
+				año{{ year }}
+			{% endfor %}
 			{% for news in site.data.news-list reversed | sort_by: 'date' %}
 				{% if news.selected %}
 					<article><em>{{ news.date | date:'%D' }}.</em> {{ news.content }}</article>
