@@ -40,5 +40,10 @@
                 </div><!-- /.modal-dialog -->
             </div><!-- /.modal --> 
         {% endif %}<!--/ABSTRACT-->
+
+        <!--BIBTEXT-->
+        {% if include.paper.bib %}
+            <a href="/bib/{{ include.paper.bib }}" target="_blank" class="label label-warning">bib</a>
+        {% endif %}<!--/BIBTEXT-->
     </div>
 </div>

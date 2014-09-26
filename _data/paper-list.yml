@@ -5,6 +5,7 @@
   year: 2010
   month: 10
   img: 2010_IUCS.jpg
+  bib: 2010_IUCS.bib
   title: Translation Table Compression under End-Tagged Dense Code
   authors: Tito Valencia, Lorena O. Cerdeira, Eva L. Iglesias and Francisco J. Rodríguez
   booktitle: 4th International Universal Communication Symposium (IUCS)
@@ -33,6 +34,7 @@
   year: 2010
   month: 09
   img: 2010_DCAI.jpg
+  bib: 2010_DCAI.bib
   title: SithGent, an Ill Agent
   authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Tito Valencia Requejo
   booktitle: 7th International Symposium in Distributed Computing and Artificial Intelligence (DCAI)
@@ -59,6 +61,7 @@
   year: 2012
   month: 10
   img: 2012_MATES.jpg
+  bib: 2012_MATES.bib
   title: Multi-Agent Systems Applied to the Field of Ornamental Plants
   authors: Francisco J. Rodríguez-Martínez, Tito Valencia-Requejo and Lorena Otero-Cerdeira
   booktitle: 10th German Conference in Multiagent System Technologies (MATES)
@@ -84,6 +87,7 @@
   year: 2012
   month: 10
   img: 2012_KEOD.jpg
+  bib: 2012_KEOD.bib
   title: "Multi-agent Systems and Ontologies Applied to New Industrial Domains. Case Study: Ornamental Plants"
   authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Loxo Lueiro Astray
   booktitle: 4th International Conference on Knowledge Engineering and Ontology Development (KEOD)
