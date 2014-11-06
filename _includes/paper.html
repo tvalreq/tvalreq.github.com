@@ -19,7 +19,13 @@
         		{% endif %}
 				<em>{{ include.paper.booktitle }}</em>{% if include.paper.pages %}: pages {{ include.paper.pages }}{% endif %}{% if include.paper.year %}, {{ include.paper.year }}.{% endif %}
 			{% when "article" %}
-
+                In 
+                {% if include.paper.journal-url %}
+                    <a href="{{ include.paper.journal-url}}" target="_blank">
+                        <span class="glyphicon glyphicon-globe"></span>
+                    </a>
+                {% endif %}
+                <em>{{ include.paper.journal }}</em>{% if paper.volume %}, {{ paper.volume }}{% if paper.number %}({{ paper.number }}){% endif %}{% endif %}{% if include.paper.pages %}: pages {{ include.paper.pages }}{% endif %}{% if include.paper.year %}, {{ include.paper.year }}.{% endif %}
 		{% endcase %}
         <br/>
         <!--ABSTRACT-->
