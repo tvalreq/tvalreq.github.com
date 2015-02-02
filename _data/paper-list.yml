@@ -117,7 +117,7 @@
   booktitle: 6th International Conference on Knowledge Engineering and Ontology Development (KEOD)
   pages: 5-15
   doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fNmZudmI4MnhZaGs/view?usp=sharing
-  booktitle-url: http://www.keod.ic3k.org/SSEO.aspx?y=2014
+  booktitle-url: http://www.keod.ic3k.org/Home.aspx?y=2014
   venue: conference
   abstract: >
     <p>This paper presents a new ontology matching algorithm, OntoPhil. The algorithm relies on the exploitation
