@@ -103,3 +103,37 @@
     the plant producers. A description of the ontologies that these agents use to interact 
     is also provided. In the final section some relevant issues detected and conclusions 
     will be presented.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2014_KEOD
+  year: 2014
+  month: 10
+  img: 2014_KEOD.jpg
+  bib: 2014_KEOD.bib
+  title: "OntoPhil - Exploitation of Binding Points for Ontology Matching"
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Alma Gómez Rodríquez
+  booktitle: 6th International Conference on Knowledge Engineering and Ontology Development (KEOD)
+  pages: 5-15
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fNmZudmI4MnhZaGs/view?usp=sharing
+  booktitle-url: http://www.keod.ic3k.org/SSEO.aspx?y=2014
+  venue: conference
+  abstract: >
+    <p>This paper presents a new ontology matching algorithm, OntoPhil. The algorithm relies on the exploitation
+    of some initial correspondences or binding points that connect the two ontologies used as input. First, it
+    computes these binding points using a new lexical similarity measure which combines the information from a
+    terminological matcher and an external one. Next, it discovers new binding points, by taking the initial ones
+    as basis and by exploiting the specific features of the external structure of the ontologies matched. Finally,
+    the binding points are automatically sifted out to obtain the final alignment. The proposed algorithm was
+    tested on the benchmarks provided by the well known evaluation initiative OAEI, and compared to other
+    matching algorithms. The experimental results show that OntoPhil is an effective approach and outperform
+    other algorithms that share the same principles.</p>
+
+
+
+
+
+
+
+
