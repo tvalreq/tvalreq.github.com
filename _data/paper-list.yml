@@ -129,4 +129,22 @@
     tested on the benchmarks provided by the well known evaluation initiative OAEI, and compared to other
     matching algorithms. The experimental results show that OntoPhil is an effective approach and outperform
     other algorithms that share the same principles.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2015_IC3K
+  year: 2015
+  month: 10
+  img: paper.svg
+  bib: 2015_IC3K.bib
+  title: "A New Similarity Measure for an Ontology Matching System"
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Alma Gómez Rodríquez
+  booktitle: "Knowledge Discovery, Knowledge Engineering and Knowledge Management: 6th International Joint Conference, IC3K - Revised Selected Papers"
+  pages: 257-272
+  doc-url: 
+  booktitle-url: http://www.springer.com/us/book/9783319258393
+  venue: conference
+  abstract: >
+    <p>Not available.</p>
     
