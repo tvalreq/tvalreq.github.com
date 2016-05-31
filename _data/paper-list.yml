@@ -142,9 +142,13 @@
   authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Alma Gómez Rodríquez
   booktitle: "Knowledge Discovery, Knowledge Engineering and Knowledge Management: 6th International Joint Conference, IC3K - Revised Selected Papers"
   pages: 257-272
-  doc-url: 
+  doc-url: http://link.springer.com/chapter/10.1007%2F978-3-319-25840-9_17
   booktitle-url: http://www.springer.com/us/book/9783319258393
   venue: conference
   abstract: >
-    <p>Not available.</p>
+    <p>The purpose of this paper is twofold. It describes a new similarity measure which is applied 
+    in a new ontology matching algorithm, OntoPhil that exploits both the lexical and structural information 
+    of the input ontologies. The different steps of the algorithm as well as some clarifying examples are 
+    also provided. In addition, OntoPhil is also compared and evaluated using the datasets from well-known 
+    Ontology Alignment Evaluation Initiative.</p>
     
