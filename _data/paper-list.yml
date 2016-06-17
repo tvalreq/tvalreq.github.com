@@ -136,13 +136,13 @@
   label: 2015_IC3K
   year: 2015
   month: 10
-  img: paper.svg
+  img: 2015_IC3K.jpg
   bib: 2015_IC3K.bib
   title: "A New Similarity Measure for an Ontology Matching System"
   authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Alma Gómez Rodríquez
   booktitle: "Knowledge Discovery, Knowledge Engineering and Knowledge Management: 6th International Joint Conference, IC3K - Revised Selected Papers"
   pages: 257-272
-  doc-url: http://link.springer.com/chapter/10.1007%2F978-3-319-25840-9_17
+  doc-url: https://drive.google.com/open?id=0B1LkOfAs6RwaSHRRY0U2akRja28
   booktitle-url: http://www.springer.com/us/book/9783319258393
   venue: conference
   abstract: >
